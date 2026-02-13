@@ -39,9 +39,10 @@ noBtn.addEventListener('click', () => {
 });
 
 yesBtn.addEventListener('click', () => {
-    result.innerHTML = "Тоді на пукальну прогулочку?";
+    result.innerHTML = "Тоді на пукальну прогулочку завтра?";
     result.style.opacity = 0;
     setTimeout(() => {
         result.style.opacity = 1;
     }, 100);
+
 });
